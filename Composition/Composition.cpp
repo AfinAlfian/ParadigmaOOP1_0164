@@ -7,5 +7,7 @@ using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    manusia* varManusia = new manusia("jono");
+    delete varManusia;
+    return 0;
 }
