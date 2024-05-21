@@ -2,17 +2,16 @@
 #include <string>
 using namespace std;
 
-class mahasiswa {
+class Mahasiswa {
 private:
     const int id;
     string nama;
     float nilai;
 public:
-    mahasiswa(int pId, string pNama, float pNilai) :id(pId), nama(pNama), nilai(pNilai) {
-
+    Mahasiswa(int pId, string pNama, float pNilai) :id(pId), nama(pNama), nilai(pNilai) {
+        
     }
-
-    ~mahasiswa() {
+    ~Mahasiswa() {
         cout << "Id    = " << id << endl;
         cout << "Nama  = " << nama << endl;
         cout << "Nilai = " << nilai << endl;
@@ -23,7 +22,7 @@ public:
 
 int main()
 {
-    mahasiswa mhs(12, "Asroni", 90, 5);
+    Mahasiswa mhs(12, "Asroni", 90.5);
 
     return 0;
 }
