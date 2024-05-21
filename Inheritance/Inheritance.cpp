@@ -36,5 +36,5 @@ public:
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    pelajar siswa1("andi laksono", "SMAN 1 Bantul");
 }
